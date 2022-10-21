@@ -1,11 +1,12 @@
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import CounterApp from './components/CounterApp'
 
 function App() {
 
   return (
     <div className="App">
-      <CounterApp value={ 10 } />
+      <CounterApp value={ 0 } />
     </div>
   )
 }
